@@ -2,7 +2,7 @@ pipeline{
 	agent {
 		label{
 		    label "qa"
-		    customWorkspace "/mnt/projects"
+		    customWorkspace "/mnt/tejas"
 			
 			}
 		}
@@ -34,4 +34,3 @@ pipeline{
 	
 			}
 			}
-
